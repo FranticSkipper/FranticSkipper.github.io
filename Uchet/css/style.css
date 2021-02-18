@@ -1211,9 +1211,9 @@ button.swiper-pagination-bullet {
 }
 
 .header-menu {
-  -webkit-transition: all 7s;
-  -o-transition: all 7s;
-  transition: all 7s;
+  -webkit-transition: all .7s;
+  -o-transition: all .7s;
+  transition: all .7s;
   z-index: 5;
   overflow: auto;
 }
@@ -1967,7 +1967,7 @@ button.swiper-pagination-bullet {
 }
 
 .footer-menu__link--active {
-  color: #e84a55;
+  color: #5c5050;
 }
 
 .footer-contacts__phone {
