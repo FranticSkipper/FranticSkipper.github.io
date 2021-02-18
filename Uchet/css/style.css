@@ -123,9 +123,18 @@ button {
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.page-btn:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-box-shadow: 0 0 20px 0 #E84A55;
           box-shadow: 0 0 20px 0 #E84A55;
-  cursor: pointer;
 }
 
 .page-phone-link {
@@ -1202,9 +1211,9 @@ button.swiper-pagination-bullet {
 }
 
 .header-menu {
-  -webkit-transition: all .7s;
-  -o-transition: all .7s;
-  transition: all .7s;
+  -webkit-transition: all 7s;
+  -o-transition: all 7s;
+  transition: all 7s;
   z-index: 5;
   overflow: auto;
 }
@@ -1225,13 +1234,15 @@ button.swiper-pagination-bullet {
   font-weight: bold;
   font-size: 13px;
   line-height: 17px;
-  /* identical to box height */
   text-transform: uppercase;
   position: relative;
 }
 
 .header-menu__link.header-menu__link--active {
   color: #e84a55;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 }
 
 .header-menu__link.header-menu__link--active::after {
@@ -1241,12 +1252,12 @@ button.swiper-pagination-bullet {
 .header-menu__link::after {
   content: "";
   position: absolute;
-  top: -9px;
-  left: 1px;
+  top: -3px;
+  left: 0;
   height: 2px;
   width: 12px;
-  display: none;
   background-color: #e84a55;
+  display: none;
 }
 
 .about {
@@ -1950,6 +1961,9 @@ button.swiper-pagination-bullet {
   font-size: 13px;
   line-height: 17px;
   text-transform: uppercase;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
 }
 
 .footer-menu__link--active {
