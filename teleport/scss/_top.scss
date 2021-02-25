@@ -1,0 +1,105 @@
+.top {
+    height: 100vh;
+    padding-top: 51px;
+    overflow: hidden;
+    @media(max-width: 991px){
+        padding-top: 20px;
+    }
+    @media(max-width: 479px){
+        padding-top: 46px;
+    }
+    &__content {
+        margin-top: 65px;
+        padding-top: 57px;
+
+        position: relative;
+        @media(max-width: 479px){
+            padding-top: 20px;
+        }
+
+        @media(max-width: 512px) {
+            margin-top: 60px;
+        }
+    }
+
+    &__inner {}
+
+    &__title {
+        font-family: "Nunito-ExtraBold";
+        font-style: normal;
+        font-weight: 800;
+        @include adaptiv-font(52, 24);
+        line-height: 146%;
+        max-width: 710px;
+
+        margin-bottom: 23px;
+
+        span {
+            color: #ff2e63;
+        }
+
+        @media(max-width: 479px) {
+            line-height: 35px;
+            max-width: 340px;
+            margin-bottom: 16px;
+        }
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        @include adaptiv-font(22, 16);
+        line-height: 156%;
+
+        margin-bottom: 49px;
+        max-width: 514px;
+
+        @media(max-width: 469px) {
+            line-height: 25px;
+            max-width: 270px;
+            margin-bottom: 38px;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media(max-width: 479px) {
+            width: 100%;
+        }
+    }
+
+
+    &__img {
+        width: 700px;
+        height: 599px;
+        height: auto;
+        position: absolute;
+        right: 68px;
+        top: 0;
+        right: -97px;
+        z-index: -1;
+        @media(max-width: 479px){
+            width: 180px;
+            height: 154px;
+            transform: rotate(16.55deg);
+            right: -70px;
+            left: auto;
+        }
+        @media(max-width: 991px){
+            right: auto;
+            left: 45%;
+        }
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}
+.page-menu-link{
+    padding-left: 65px;
+
+    position: relative;
+
+}

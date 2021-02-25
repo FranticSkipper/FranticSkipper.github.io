@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <section class="home">
+        <div class="container">
+            <div class="home__inner">
+                <aside class="home__aside home-aside">
+                    <div class="home-aside__row">
+                        <div class="home-aside__toggle">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="home-aside__inner">
+                        <div class="home-aside__logo page-logo">
+                            <img src="images/header/logo.png" alt="">
+                        </div>
+
+                        <div class="home-aside__avatar">
+                            <img src="images/home/avatar.png" alt="">
+                        </div>
+                        <nav class="home-aside__menu home-menu page-menu">
+                            <ul class="home-menu__list page-menu__list">
+                                <li class="home-menu__item page-menu__item"><a href="#"
+                                        class="home-menu__link page-menu__link page-menu__link--active"
+                                        data-menu="subpages">Мои страницы</a>
+                                </li>
+                                <li class="home-menu__item page-menu__item"><a href="#"
+                                        class="home-menu__link page-menu__link" data-menu="balance">Баланс</a></li>
+                                <li class="home-menu__item page-menu__item"><a href="#"
+                                        class="home-menu__link page-menu__link" data-menu="materials">Обучающие
+                                        материалы</a>
+                                </li>
+                                <li class="home-menu__item page-menu__item"><a href="#"
+                                        class="home-menu__link page-menu__link" data-menu="personal">Личный кабинет</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </aside>
+                <main class="home__content home-content">
+                    <div class="home-content__logout"><a href="index.html" class="home-main__logout-link">Выход</a></div>
+                    <div class="home-content__inner">
+                        <!-- @@include("_subpages.html") -->
+                        <!-- @@include("_balance.html") -->
+                        <!-- @@include("_create.html") -->
+                        <!-- @@include("_materials.html") -->
+                        <!-- @@include("_personal.html") -->
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

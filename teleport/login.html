@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="login">
+        <div class="container">
+            <div class="login__inner">
+                <div class="login__box box-login">
+                    <a class="box-login__link-close page-link-close" href="index.html"></a>
+                    <form action="#" class="box-login__form login-form">
+                        <label class="login-form__label page-label" for="inputUsername">Имя пользователя</label>
+                        <input class="login-form__input page-input" type="text" id="inputUsername">
+                        <label class="login-form__label page-label" for="InputPassword">Пароль</label>
+                        <input class="login-form__input page-input" type="password" id="InputPassword">
+                        <div class="login-form__row">
+                            <label class="login-form__label-radio page-label-radio">
+                                <input class="login-form__input-radio page-input-radio" type="checkbox">
+                                <span></span>
+                                Запомнить меня
+                            </label>
+                            <a href="recovery.html" class="login-form__link-restore">Забыл и пароль?</a>
+                        </div>
+                        <button class="login-form__btn-login page-btn" type="submit">Войти</button>
+                        
+                    </form>
+                    <a href="index.html" class="box-login__btn-return page-btn">на главную</a>
+                    <a href="registration.html" class="box-login__link-create">Создать аккаунт</a>
+                    
+                    <div class="box-login__img">
+                        <img src="images/login/box-image.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

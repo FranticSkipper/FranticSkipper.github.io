@@ -1,0 +1,137 @@
+.registration {
+    background: url('../images/registration/registration-bg.png') no-repeat 0 0/cover;
+
+    &__inner {
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__box {}
+}
+
+.container {}
+
+.box-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    @media(max-width: 500px) {
+        width: 100%;
+    }
+
+    &__inner {
+        max-width: 592px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 85px 104px 68px 120px;
+        background: #3C4070;
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.09);
+        border-radius: 7px;
+
+        @media(max-width: 991px) {
+            padding: 40px 50px 30px 60px;
+        }
+
+        @media(max-width: 500px) {
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    &__btn-login {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 100%;
+    }
+
+    &__link-close {
+        top: 10px;
+        right: 10px;
+    }
+
+    &__form {}
+
+    &__btn-login {
+        background: #202245;
+        box-shadow: none;
+        max-width: 320px;
+        width: 100%;
+
+        &:active {
+            background: #32378d;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(350px, 50px);
+        max-width: 411px;
+
+        @media(max-width: 991px) {
+            display: none;
+        }
+
+        & img {
+            width: 100%;
+            display: block;
+        }
+    }
+
+}
+
+
+.form-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    width: 100%;
+
+
+    margin-bottom: 21px;
+
+    &__label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 18px;
+        width: 100%;
+
+        @media(max-width: 991px) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__input {
+        margin-top: 11px;
+        width: 100%;
+
+        @media(max-width: 991px) {
+            margin-top: 8px;
+        }
+    }
+
+    &__btn-create {
+        height: 50px;
+        width: 100%;
+    }
+
+    &__label-radio {
+        margin-bottom: 19px;
+    }
+}
